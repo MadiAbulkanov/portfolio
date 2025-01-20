@@ -1,0 +1,29 @@
+header {
+    background-color: #FF9000;
+    padding: 20px 0px;
+}
+
+.header-wrap {
+    max-width: 1280px;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 auto;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ccc;
+}
+
+.nav-button {
+    margin: 0px 10px;
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+    border: none;
+    background-color: #FF9000;
+    cursor: pointer;
+    font-family: Advent Pro, serif;
+}
+
+.nav-button:hover {
+    transform: translateY(5px);
+    transition: 0.2s;
+}

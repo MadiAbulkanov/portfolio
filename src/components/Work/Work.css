@@ -1,0 +1,98 @@
+.works-section {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 50px 0;
+
+    opacity: 0;
+    transform: translateY(250px);
+    transition: opacity 0.7s ease, transform 0.7s ease;
+}
+
+.works-section.fade-in {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.works-section-title {
+    font-size: 50px;
+    margin: 60px auto;
+}
+
+.work-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between
+
+}
+
+.project-card {
+    max-width: 370px;
+    margin: 20px 10px;
+    padding: 5px;
+    border: 2px solid #FF9000;
+    border-radius: 5px;
+
+    transform: translateY(70px);
+    transition: opacity 0.7s, transform 0.7s;
+    opacity: 0;
+}
+
+.works-section.fade-in .project-card {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.works-section.fade-in .project-card:nth-child(1) { transition-delay: 0.8s; }
+.works-section.fade-in .project-card:nth-child(2) { transition-delay: 1s; }
+.works-section.fade-in .project-card:nth-child(3) { transition-delay: 1.2s; }
+.works-section.fade-in .project-card:nth-child(4) { transition-delay: 1.4s; }
+.works-section.fade-in .project-card:nth-child(5) { transition-delay: 1.6s; }
+.works-section.fade-in .project-card:nth-child(6) { transition-delay: 1.8s; }
+
+.project-page-img {
+    max-width: 370px;
+    height: 380px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    transition: filter 0.3s ease;
+}
+
+.project-page-img:hover {
+    filter: brightness(80%);
+}
+
+.project-title {
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: bold;
+    margin: 15px auto;
+}
+
+.project-repo {
+    text-decoration: none;
+    
+}
+
+.project-repo p {
+    padding: 7px 15px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: #e6e6e6;
+    border-radius: 4px;
+    margin: 0 auto;
+    color: black;
+}
+
+.project-repo p:hover {
+    color: white;
+    background: #FF9000;
+    transition: 0.4s;
+}
+
+.project-desc {
+    font-size: 18px;
+    color: #555555;
+    letter-spacing: 2px;
+}

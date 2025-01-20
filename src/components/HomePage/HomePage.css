@@ -1,0 +1,36 @@
+.home-page {
+    background-color: #FF9000;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+.my-photo {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.profile-title {
+    margin: 10px 0px;
+    font-family: Marck Script, serif;
+    font-size: 45px; 
+    font-weight: 400;
+    transform: rotate(-5deg);
+}
+
+.profile-subtitle {
+    font-size: 22px; 
+    font-weight: 600;
+}
+
+.social-networks {
+    margin-top: 15px;
+}
+
+.social-icon {
+    margin: 15px;
+    cursor: pointer;
+}

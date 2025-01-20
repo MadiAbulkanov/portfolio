@@ -1,0 +1,108 @@
+.about-me-section {
+    max-width: 1280px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    opacity: 0;
+    transform: translateY(250px);
+    transition: opacity 0.7s ease, transform 0.7s ease;
+}
+
+.about-me-section.fade-in {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.about-me-section-title {
+    width: 100%;
+    font-size: 50px;
+    margin: 60px;
+}
+
+.my-details-block {
+    display: flex;
+    width: 40%;
+
+    opacity: 0;
+    transform: translateY(250px);
+    transition: opacity 1.3s ease, transform 1.3s ease;
+}
+
+.my-details-block.fade-in {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.title-column {
+    width: 30%;
+    font-weight: 600;
+}
+
+.title-column, .desc-column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 20px;
+}
+
+.my-details-title {
+    margin: 10px;
+}
+
+.desc-column {
+    width: 60%;
+    font-weight: 400;
+    color: #555555;
+}
+
+.my-details-desc {
+    margin: 10px;
+}
+
+.description-about-me-block {
+    width: 60%;
+    text-align: left;
+    margin-bottom: 150px;
+
+    opacity: 0;
+    transform: translateY(250px);
+    transition: opacity 1.8s ease, transform 1.8s ease;
+}
+
+.description-about-me-block.fade-in {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.about-me-block-title {
+    font-size: 25px;
+    margin-top: 0;
+}
+
+.about-me-block-subtitle {
+    font-size: 18px;
+    color: #555555;
+    letter-spacing: 2px;
+}
+
+.social_networks {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social_icon {
+    background-color: #2F3C4F;
+    width: 40px;
+    padding-top: 6px;
+    display: block;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.social_icon:hover {
+    background-color: #FF9000;
+    transition: 0.6s;
+}
