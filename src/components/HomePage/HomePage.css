@@ -34,3 +34,19 @@
     margin: 15px;
     cursor: pointer;
 }
+
+@media screen and (max-width: 780px) {
+    .my-photo {
+        width: 200px;
+        height: 200px;
+    }
+
+    .profile-title {
+        font-size: 30px; 
+    }
+    
+    .profile-subtitle {
+        font-size: 19px; 
+        font-weight: 400;
+    }
+}

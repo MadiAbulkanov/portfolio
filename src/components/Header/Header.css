@@ -27,3 +27,15 @@ header {
     transform: translateY(5px);
     transition: 0.2s;
 }
+
+@media screen and (max-width: 780px) {
+    .header-wrap {
+        flex-direction: column;
+    }
+
+    .nav-button {
+        margin: 10px 5px;
+        font-size: 17px;
+        font-weight: 300;
+    }
+}

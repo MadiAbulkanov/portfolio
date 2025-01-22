@@ -112,3 +112,62 @@
     color: #555555;
     letter-spacing: 2px;
 }
+
+@media screen and (max-width: 1024px) {
+    .timeline-panel {
+        padding: 5px 1px;
+    }
+
+    .timeline-panel-heading h3 {
+        font-size: 21px;
+    }
+    
+    .timeline-panel-heading p {
+        font-size: 16px;
+    }
+    
+    .timeline-body {
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .resume-section-title {
+        font-size: 40px;
+        margin: 30px;
+    }
+
+    .timeline::before {
+        left: 0;
+        margin-left: 40px;
+    }
+
+    .timeline-unverted {
+        text-align: right;
+    }
+
+    .timeline-unverted .timeline-panel {
+        text-align: left;
+    }
+
+    .timeline-badge {
+        left: 0;
+        margin-left: 15px;
+    }
+
+    .timeline-panel {
+        display: inline-block;
+        background: #fff;
+        border-radius: 8px;
+        padding: 5px 0px;
+        width: 77%;
+    }
+
+    .timeline-heading h3 {
+        position: absolute;
+        top: -25px;
+        left: 40px;
+        z-index: 100;
+    }
+}

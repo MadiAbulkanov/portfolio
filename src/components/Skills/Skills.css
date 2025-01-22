@@ -16,7 +16,6 @@
     font-size: 50px;
     margin: 60px auto;
     color: white;
-
 }
 
 .skills-section-wrap {
@@ -71,3 +70,55 @@
 .skills-section.visible .skills-icon:nth-child(10) { transition-delay: 2.6s; }
 .skills-section.visible .skills-icon:nth-child(11) { transition-delay: 2.8s; }
 .skills-section.visible .skills-icon:nth-child(12) { transition-delay: 3s; }
+
+@media screen and (max-width: 1024px) {
+    .skills {
+        margin: 10px;
+        max-width: 400px;
+        min-width: 290px;
+    }
+
+    .skills-icon {
+        width: 65px;
+        margin: 15px;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .skills-section-wrap {
+        flex-direction: column;
+    }
+
+    .skills-section-title {
+        font-size: 40px;
+        margin: 30px auto;
+    }
+
+    .skills {
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .skills-icon {
+        width: 55px;
+        margin: 10px;
+    }
+
+    .skills-card {
+        justify-content: center;
+        padding-left: 0px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .skills {
+        max-width: 290px;
+        margin: 1px;
+        margin-bottom: 40px;
+    }
+
+    .skills-icon {
+        width: 45px;
+        margin: 10px;
+    }
+}

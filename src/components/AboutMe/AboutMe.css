@@ -47,7 +47,7 @@
     font-size: 20px;
 }
 
-.my-details-title {
+.my-details-title, .my-details-desc {
     margin: 10px;
 }
 
@@ -55,10 +55,6 @@
     width: 60%;
     font-weight: 400;
     color: #555555;
-}
-
-.my-details-desc {
-    margin: 10px;
 }
 
 .description-about-me-block {
@@ -105,4 +101,59 @@
 .social_icon:hover {
     background-color: #FF9000;
     transition: 0.6s;
+}
+
+@media screen and (max-width: 1024px) {
+    .title-column, .desc-column {
+        font-size: 16px;
+    }
+
+    .about-me-block-title {
+        font-size: 22px;
+        margin: 10px;
+    }
+    
+    .about-me-block-subtitle {
+        font-size: 16px;
+        letter-spacing: 1px;
+        margin: 10px;
+    }
+
+    .my-details-title, .my-details-desc  {
+        margin: 5px;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .about-me-section {
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+    }
+    
+    .about-me-section-title {
+        font-size: 40px;
+        margin: 30px;
+    }
+
+    .my-details-block {
+        width: 100%;
+        margin: 10px;
+    }
+
+    .description-about-me-block {
+        width: 100%;
+        margin-bottom: 150px;
+        margin-top: 20px;
+    }
+    
+    .about-me-block-subtitle {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .title-column, .desc-column {
+        font-size: 14px;
+    }
 }
