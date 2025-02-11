@@ -4,6 +4,7 @@ import droneStore from '../../assets/drone-store.jpg'
 import pokemonList from '../../assets/pokemon-list.jpg'
 import tvSeriesSearch from '../../assets/tv-series-search.jpg'
 import countryData from '../../assets/country-data.jpg'
+import weatherBot from '../../assets/weather-bot.jpg'
 import { useEffect, useRef, useState } from 'react';
 
 export const Work = ({ id }: { id: string }) => {
@@ -77,12 +78,12 @@ export const Work = ({ id }: { id: string }) => {
                     <p className="project-desc">Приложение по поиску информации о телевизионных сериалах</p>
                 </div>
                 <div className="project-card">
-                    <a className="project-img" target="_blank">
-                        <img src={adalZan} alt="project-img" className="project-page-img" />
+                    <a className="project-img" href='https://t.me/mdiweatherbot' target="_blank">
+                        <img src={weatherBot} alt="project-img" className="project-page-img" />
                     </a>
-                    <h3 className="project-title">Будущий проект</h3>
-                    <a className="project-repo" target="_blank"><p>Репозиторий проекта</p></a>
-                    <p className="project-desc"></p>
+                    <h3 className="project-title">Weather Bot</h3>
+                    <a className="project-repo" href='https://github.com/MadiAbulkanov/weather-bot' target="_blank"><p>Репозиторий проекта</p></a>
+                    <p className="project-desc">Telegram-бот для получения текущей погоды по вашей геопозиции.</p>
                 </div>
             </div>
         </div>
