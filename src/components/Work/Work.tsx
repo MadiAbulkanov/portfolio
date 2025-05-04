@@ -37,7 +37,7 @@ export const Work = ({ id }: { id: string }) => {
             <h1 className="works-section-title">Мои работы</h1>
             <div className="work-cards">
                 <div className="project-card">
-                    <a className="project-img" href='https://adalzan.kz/' target="_blank">
+                    <a className="project-img" href='https://adal-zan.vercel.app/' target="_blank">
                         <img src={adalZan} alt="project-img" className="project-page-img" />
                     </a>
                     <h3 className="project-title">Adal zan</h3>
